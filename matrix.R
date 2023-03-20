@@ -1,0 +1,6 @@
+matE<-matrix(0,nrow=3,ncol=3)
+print(matE)
+print(row(matE))
+print(col(matE))
+matg<-rbind(cbind(matE,matE), cbind(matE,matE))
+print(matg)
